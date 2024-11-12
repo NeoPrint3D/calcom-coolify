@@ -4,10 +4,6 @@ version: '3.8'
 volumes:
   database-data:
 
-networks:
-  stack:
-    name: stack
-    external: false
 
 services:
   database:
